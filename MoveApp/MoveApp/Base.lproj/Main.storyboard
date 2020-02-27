@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MoveApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b4b-H2-AMK">
+                                <rect key="frame" x="77" y="85" width="43" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="arrow.left" catalog="system"/>
+                                <connections>
+                                    <action selector="goLeft:" destination="BYZ-38-t0r" eventType="touchUpInside" id="F0C-yS-16Y"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s1I-no-42f">
+                                <rect key="frame" x="140" y="19" width="46" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="arrow.up" catalog="system"/>
+                                <connections>
+                                    <action selector="goUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5JG-Ud-eP1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9UH-Bv-sVl">
+                                <rect key="frame" x="141" y="134" width="46" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="arrow.down" catalog="system"/>
+                                <connections>
+                                    <action selector="goDown:" destination="BYZ-38-t0r" eventType="touchUpInside" id="auN-Aq-4tZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PZr-Be-PjI">
+                                <rect key="frame" x="205" y="85" width="46" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="arrow.right" catalog="system"/>
+                                <connections>
+                                    <action selector="goRight:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vho-vo-vQl"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ufo1.png" translatesAutoresizingMaskIntoConstraints="NO" id="Trt-os-JIM">
+                                <rect key="frame" x="100" y="170" width="177" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XE7-Yb-NHM">
+                                <rect key="frame" x="192" y="35" width="41" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="arrow.up.right" catalog="system"/>
+                                <connections>
+                                    <action selector="goUpRight:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bAv-sr-Go7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="peI-IF-lIE">
+                                <rect key="frame" x="89" y="35" width="42" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="arrow.up.left" catalog="system"/>
+                                <connections>
+                                    <action selector="goUpLeft:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DBt-En-plI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7z2-so-VBg">
+                                <rect key="frame" x="94" y="131" width="42" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="arrow.down.left" catalog="system"/>
+                                <connections>
+                                    <action selector="goDownLeft:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mHp-87-dOl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pci-YY-gOu">
+                                <rect key="frame" x="196" y="133" width="43" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="arrow.down.right" catalog="system"/>
+                                <connections>
+                                    <action selector="goDownRight:" destination="BYZ-38-t0r" eventType="touchUpInside" id="s7m-sH-q58"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zMD-sL-CR7">
+                                <rect key="frame" x="141" y="80.5" width="46" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="circle.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="goReset:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IEY-p8-aw7"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="imgView" destination="Trt-os-JIM" id="1NN-Ho-4nM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.91964285714286" y="137.68115942028987"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arrow.down" catalog="system" width="60" height="64"/>
+        <image name="arrow.down.left" catalog="system" width="64" height="54"/>
+        <image name="arrow.down.right" catalog="system" width="64" height="54"/>
+        <image name="arrow.left" catalog="system" width="64" height="48"/>
+        <image name="arrow.right" catalog="system" width="64" height="48"/>
+        <image name="arrow.up" catalog="system" width="60" height="64"/>
+        <image name="arrow.up.left" catalog="system" width="64" height="54"/>
+        <image name="arrow.up.right" catalog="system" width="64" height="54"/>
+        <image name="circle.fill" catalog="system" width="64" height="60"/>
+        <image name="ufo1.png" width="512" height="512"/>
+    </resources>
+</document>
