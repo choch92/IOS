@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		861EBA76240F4AFA00040661 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EBA75240F4AFA00040661 /* AppDelegate.swift */; };
+		861EBA78240F4AFA00040661 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EBA77240F4AFA00040661 /* SceneDelegate.swift */; };
+		861EBA7A240F4AFA00040661 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EBA79240F4AFA00040661 /* ViewController.swift */; };
+		861EBA7D240F4AFA00040661 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 861EBA7B240F4AFA00040661 /* Main.storyboard */; };
+		861EBA7F240F4B0900040661 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 861EBA7E240F4B0900040661 /* Assets.xcassets */; };
+		861EBA82240F4B0900040661 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 861EBA80240F4B0900040661 /* LaunchScreen.storyboard */; };
+		861EBA8A240F500800040661 /* MusicListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EBA89240F500800040661 /* MusicListController.swift */; };
+		861EBA90240F509A00040661 /* SheWolf.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 861EBA8C240F509A00040661 /* SheWolf.mp3 */; };
+		861EBA91240F509A00040661 /* LoveIsGone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 861EBA8D240F509A00040661 /* LoveIsGone.mp3 */; };
+		861EBA92240F509A00040661 /* PlayHard.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 861EBA8E240F509A00040661 /* PlayHard.mp3 */; };
+		861EBA93240F509A00040661 /* Titanium.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 861EBA8F240F509A00040661 /* Titanium.mp3 */; };
+		861EBA98240F526600040661 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 861EBA95240F526600040661 /* pause.png */; };
+		861EBA99240F526600040661 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 861EBA96240F526600040661 /* play.png */; };
+		861EBA9A240F526600040661 /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 861EBA97240F526600040661 /* stop.png */; };
+		861EBA9C240F52FC00040661 /* PlayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EBA9B240F52FC00040661 /* PlayController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		861EBA72240F4AFA00040661 /* MP3Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MP3Player.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		861EBA75240F4AFA00040661 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		861EBA77240F4AFA00040661 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		861EBA79240F4AFA00040661 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		861EBA7C240F4AFA00040661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		861EBA7E240F4B0900040661 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		861EBA81240F4B0900040661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		861EBA83240F4B0900040661 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		861EBA89240F500800040661 /* MusicListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicListController.swift; sourceTree = "<group>"; };
+		861EBA8C240F509A00040661 /* SheWolf.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SheWolf.mp3; sourceTree = "<group>"; };
+		861EBA8D240F509A00040661 /* LoveIsGone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = LoveIsGone.mp3; sourceTree = "<group>"; };
+		861EBA8E240F509A00040661 /* PlayHard.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlayHard.mp3; sourceTree = "<group>"; };
+		861EBA8F240F509A00040661 /* Titanium.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Titanium.mp3; sourceTree = "<group>"; };
+		861EBA95240F526600040661 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		861EBA96240F526600040661 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		861EBA97240F526600040661 /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
+		861EBA9B240F52FC00040661 /* PlayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		861EBA6F240F4AFA00040661 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		861EBA69240F4AFA00040661 = {
+			isa = PBXGroup;
+			children = (
+				861EBA94240F525900040661 /* images */,
+				861EBA8B240F505C00040661 /* music */,
+				861EBA74240F4AFA00040661 /* MP3Player */,
+				861EBA73240F4AFA00040661 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		861EBA73240F4AFA00040661 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				861EBA72240F4AFA00040661 /* MP3Player.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		861EBA74240F4AFA00040661 /* MP3Player */ = {
+			isa = PBXGroup;
+			children = (
+				861EBA75240F4AFA00040661 /* AppDelegate.swift */,
+				861EBA77240F4AFA00040661 /* SceneDelegate.swift */,
+				861EBA79240F4AFA00040661 /* ViewController.swift */,
+				861EBA7B240F4AFA00040661 /* Main.storyboard */,
+				861EBA7E240F4B0900040661 /* Assets.xcassets */,
+				861EBA80240F4B0900040661 /* LaunchScreen.storyboard */,
+				861EBA83240F4B0900040661 /* Info.plist */,
+				861EBA89240F500800040661 /* MusicListController.swift */,
+				861EBA9B240F52FC00040661 /* PlayController.swift */,
+			);
+			path = MP3Player;
+			sourceTree = "<group>";
+		};
+		861EBA8B240F505C00040661 /* music */ = {
+			isa = PBXGroup;
+			children = (
+				861EBA8D240F509A00040661 /* LoveIsGone.mp3 */,
+				861EBA8E240F509A00040661 /* PlayHard.mp3 */,
+				861EBA8C240F509A00040661 /* SheWolf.mp3 */,
+				861EBA8F240F509A00040661 /* Titanium.mp3 */,
+			);
+			path = music;
+			sourceTree = "<group>";
+		};
+		861EBA94240F525900040661 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				861EBA95240F526600040661 /* pause.png */,
+				861EBA96240F526600040661 /* play.png */,
+				861EBA97240F526600040661 /* stop.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		861EBA71240F4AFA00040661 /* MP3Player */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 861EBA86240F4B0900040661 /* Build configuration list for PBXNativeTarget "MP3Player" */;
+			buildPhases = (
+				861EBA6E240F4AFA00040661 /* Sources */,
+				861EBA6F240F4AFA00040661 /* Frameworks */,
+				861EBA70240F4AFA00040661 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MP3Player;
+			productName = MP3Player;
+			productReference = 861EBA72240F4AFA00040661 /* MP3Player.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		861EBA6A240F4AFA00040661 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = 601;
+				TargetAttributes = {
+					861EBA71240F4AFA00040661 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 861EBA6D240F4AFA00040661 /* Build configuration list for PBXProject "MP3Player" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 861EBA69240F4AFA00040661;
+			productRefGroup = 861EBA73240F4AFA00040661 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				861EBA71240F4AFA00040661 /* MP3Player */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		861EBA70240F4AFA00040661 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				861EBA82240F4B0900040661 /* LaunchScreen.storyboard in Resources */,
+				861EBA9A240F526600040661 /* stop.png in Resources */,
+				861EBA90240F509A00040661 /* SheWolf.mp3 in Resources */,
+				861EBA99240F526600040661 /* play.png in Resources */,
+				861EBA98240F526600040661 /* pause.png in Resources */,
+				861EBA93240F509A00040661 /* Titanium.mp3 in Resources */,
+				861EBA7F240F4B0900040661 /* Assets.xcassets in Resources */,
+				861EBA92240F509A00040661 /* PlayHard.mp3 in Resources */,
+				861EBA7D240F4AFA00040661 /* Main.storyboard in Resources */,
+				861EBA91240F509A00040661 /* LoveIsGone.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		861EBA6E240F4AFA00040661 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				861EBA7A240F4AFA00040661 /* ViewController.swift in Sources */,
+				861EBA8A240F500800040661 /* MusicListController.swift in Sources */,
+				861EBA76240F4AFA00040661 /* AppDelegate.swift in Sources */,
+				861EBA78240F4AFA00040661 /* SceneDelegate.swift in Sources */,
+				861EBA9C240F52FC00040661 /* PlayController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		861EBA7B240F4AFA00040661 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				861EBA7C240F4AFA00040661 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		861EBA80240F4B0900040661 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				861EBA81240F4B0900040661 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		861EBA84240F4B0900040661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		861EBA85240F4B0900040661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		861EBA87240F4B0900040661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MP3Player/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tj.MP3Player;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		861EBA88240F4B0900040661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MP3Player/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tj.MP3Player;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		861EBA6D240F4AFA00040661 /* Build configuration list for PBXProject "MP3Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				861EBA84240F4B0900040661 /* Debug */,
+				861EBA85240F4B0900040661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		861EBA86240F4B0900040661 /* Build configuration list for PBXNativeTarget "MP3Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				861EBA87240F4B0900040661 /* Debug */,
+				861EBA88240F4B0900040661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 861EBA6A240F4AFA00040661 /* Project object */;
+}
